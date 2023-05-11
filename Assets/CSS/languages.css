@@ -1,0 +1,30 @@
+.languages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.languages li::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    background-image: url('/Assets/Images/Icons/right.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .25s ease-in-out;
+    margin-right: .25rem;
+}
+
+.languages li{
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    transition: .25s ease-in-out;
+    font-weight: 700;
+}

@@ -1,0 +1,58 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills .personal li::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    background-image: url('/Assets/Images/Icons/right.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .25s ease-in-out;
+    margin-right: .25rem;
+}
+
+.skills .tools ul li img{
+    max-width: 80px;
+    margin: 0 5px;
+    padding: 10px;
+    transition: .25s ease-in-out;
+    cursor: pointer;
+}
+
+.skills .tools ul li img:hover{
+    transform: scale(1.5);
+}
+
+.skills .personal ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.skills .personal ul li{
+    margin-left: 2rem;
+    padding: .5rem;
+}
+

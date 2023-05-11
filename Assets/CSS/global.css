@@ -1,0 +1,33 @@
+/* Cores usadas no projeto:  #55569E, #000000, #ffffff*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/Assets/Fonts/neue-machina/NeueMachina-Regular.otf');
+}
+
+body {
+    background-size: contain;
+    background-image: linear-gradient(315deg, #55569E 0%, #000000 23%, #000000 83%, #55569E 100%);
+    color: #fff;
+    position: relative;
+    min-height: 100vh;
+}
+
+   
